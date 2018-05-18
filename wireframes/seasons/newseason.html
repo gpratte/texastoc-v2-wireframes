@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="../../images/texastoc.50x50.png">
+      <title>Games</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="../../bootstrap-4.1.1/css/bootstrap.min.css">
+      <!-- Font Awesome -->
+      <script defer src="../../fontawesome-free-5.0.13/svg-with-js/js/fontawesome-all.min.js"></script>
+
+      <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+   </head>
+   <body>
+      <main role="main" class="container-fluid">
+         <div class="row">
+            <img src="../../images/texastoc.spades.100x100.png" width="50px" height="50px">
+            <div class="dropleft ml-auto">
+               <a class="nav-link" href="#" data-toggle="dropdown">
+               <i class="fas fa-user"></i>
+               </a>
+               <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Log out</a>
+               </div>
+            </div>
+         </div>
+
+         <br>
+         <div class="row">
+            <div class="col-lg">
+              <form>
+                <div class="form-group">
+                  <label for="datepicker">Monday of the week that starts the new season</label>
+                  <input type="text" class="form-control" id="datepicker">
+                </div>
+                <div class="form-group">
+                  <label for="kitty">Game kitty amount</label>
+                  <input type="text" class="form-control" id="kitty">
+                </div>
+                <div class="form-group">
+                  <label for="toc">Game annual TOC amount</label>
+                  <input type="text" class="form-control" id="toc">
+                </div>
+                <div class="form-group">
+                  <label for="qtoc">Game quarterly TOC amount</label>
+                  <input type="text" class="form-control" id="qtoc">
+                </div>
+                <div class="form-group">
+                  <label for="qpayouts">Number of quarterly payouts</label>
+                  <input type="text" class="form-control" id="qpayouts">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+         </div>
+      </main>
+      <script src="../../jquery-3.3.1/jquery-3.3.1.min.js"></script>
+      <script src="../../bootstrap-4.1.1/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/js/gijgo.min.js" type="text/javascript"></script>
+      <script src="newseason.js"></script>
+   </body>
+</html>
